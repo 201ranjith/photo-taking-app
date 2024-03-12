@@ -16,7 +16,13 @@ Youtube Link: "https://www.youtube.com/embed/0ASQ13Y1Rk4"
   
 
 note
-Looking for the previous version of this guide that covered Ionic 4 and Cordova? [See here.](../developer-resources/guides/first-app-v4/intro.md)
+Looking for the previous version of this guide that covered Ionic 4 and Cordova? [See here.](../developer-resources/guides/first-app-v4/intro.md) 
+
+## ScreenShot:
+![1](https://github.com/201ranjith/photo-taking-app/assets/128779350/29cb19cd-605f-4a58-a81e-aece93a97aae) ![image](https://github.com/201ranjith/photo-taking-app/assets/128779350/84156239-4aac-4824-a9bc-72fe41ebff9f)![image](https://github.com/201ranjith/photo-taking-app/assets/128779350/3b367fd3-a9ec-40f3-bec4-48f1654f5564) ![image](https://github.com/201ranjith/photo-taking-app/assets/128779350/2db1e121-8d0d-4114-80ac-5a2b9441c9b3)
+
+
+
 
 
 ## What We'll Build
