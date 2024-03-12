@@ -1,4 +1,4 @@
-Photo-Taking-App- with Ionic Framework
+## Photo-Taking-App- with Ionic Framework
 
 
 Build Your First Ionic Mobile App: Angular Development Tutorial
