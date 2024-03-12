@@ -1,17 +1,35 @@
-<ion-header [translucent]="true">
+<ion-header translucent no-border>
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/previous-page" color="primary"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+    <ion-buttons slot="end">
+      <ion-button href="https://github.com/201ranjith">
+        <ion-icon name="logo-github"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content fullscreen="true">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div class="card">
+    <div class="header">
+      <div class="avatar">
+        <img src="../../assets/ranjith.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="card-body">
+    <div class="user-meta ion-text-center">
+      <h3 class="profilename">Ranjith Raghul.S</h3>
+      <h5 class="country">India,TamilNadu</h5>
+    </div>
+    <ion-button expand="full" color="primary" href="https://www.linkedin.com/in/ranjith-raghul-878534268/">Linkedin Profile</ion-button>
+    <ion-button expand="full" color="secondary" href="mailto:ranjith.rr.raghul@gmail.com">Work Email</ion-button>
+    <ion-button expand="full" color="secondary" href="https://ranjithraghul.000webhostapp.com/">Portfolio</ion-button>
+  </div>
+
 </ion-content>
